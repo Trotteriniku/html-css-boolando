@@ -48,7 +48,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    
+
 }
 
 nav{
@@ -82,7 +82,7 @@ nav.flexer{
  main img{
     width: 100%;
     display: block;
-    
+
  }
  .cards{
     width: calc(100% / 3 );
@@ -92,12 +92,13 @@ nav.flexer{
 
  .red-text{
     color: var(--color-accessory);
+    font-weight: 700;
  }
 
  .censured-text{
+    font-weight: 500;
     text-decoration: line-through;
  }
-/* MAIN */
 
 .discount{
     position: absolute;
@@ -107,7 +108,7 @@ nav.flexer{
     background-color: var(--color-accessory);
     top:86%;
 }
- 
+
 .attribute{
     position: absolute;
     font-size: 0.6rem;
@@ -116,6 +117,15 @@ nav.flexer{
     background-color: var(--color-accessory2);
     top: 86%;
     left: 13%;
+}
+
+.attribute2{
+    position: absolute;
+    font-size: 0.6rem;
+    padding: 3px 10px;
+    color: white;
+    background-color: var(--color-accessory2);
+    top: 86%;
 }
 
 .hearts{
@@ -136,6 +146,7 @@ nav.flexer{
 .relativer{
     position: relative;
 }
+
 .img-hover{
     opacity: 0.0;
     position: absolute;
@@ -148,3 +159,4 @@ nav.flexer{
 .img-hover:hover{
     opacity:1;
 }
+/* MAIN */
