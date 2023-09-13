@@ -160,3 +160,25 @@ nav.flexer{
     opacity:1;
 }
 /* MAIN */
+
+/* FOOTER */
+footer{
+    background-color: var(--color-secondary);
+    padding: 20px;
+
+}
+
+.footer-color{
+    color: white;
+}
+
+.footer-text{
+    font-size: 0.6em;
+    padding-top: 10px;
+}
+
+.footer-text span{
+    padding-right: 10px;
+}
+/* FOOTER */
+
