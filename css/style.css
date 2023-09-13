@@ -10,3 +10,59 @@
 	--color-accessory: #ff0000;
 	--color-accessory2 : #008000;
 }
+
+/* UTILITY */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.wrapper{
+    flex-wrap: wrap;
+}
+
+.icon{
+    gap: 10px;
+    display: flex;
+}
+/* UTILITY */
+
+
+
+/* HEADER */
+header{
+    background-color: var(--color-primary);
+    color: white;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav{
+    padding: 20px;
+}
+
+a{
+    color: white;
+}
+
+.flexer{
+    display: flex;
+}
+
+nav.flexer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 10%;
+    justify-content: center;
+}
+/* HEADER */
