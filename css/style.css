@@ -11,6 +11,9 @@
 	--color-accessory2 : #008000;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /* UTILITY */
 .container{
     max-width: 1200px;
@@ -22,13 +25,16 @@
 }
 
 .wrapper{
-    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .icon{
     gap: 10px;
     display: flex;
 }
+
+
 /* UTILITY */
 
 
@@ -42,6 +48,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    
 }
 
 nav{
@@ -66,3 +73,78 @@ nav.flexer{
     justify-content: center;
 }
 /* HEADER */
+
+/* MAIN */
+ main{
+    margin-top: 100px;
+ }
+
+ main img{
+    width: 100%;
+    display: block;
+    
+ }
+ .cards{
+    width: calc(100% / 3 );
+    padding: 10px;
+    position: relative;
+ }
+
+ .red-text{
+    color: var(--color-accessory);
+ }
+
+ .censured-text{
+    text-decoration: line-through;
+ }
+/* MAIN */
+
+.discount{
+    position: absolute;
+    font-size: 0.6rem;
+    padding: 3px 10px;
+    color: white;
+    background-color: var(--color-accessory);
+    top:86%;
+}
+ 
+.attribute{
+    position: absolute;
+    font-size: 0.6rem;
+    padding: 3px 10px;
+    color: white;
+    background-color: var(--color-accessory2);
+    top: 86%;
+    left: 13%;
+}
+
+.hearts{
+    background-color: white;
+    position: absolute;
+    font-size: 1.5rem;
+    top: 7px;
+    right: 0px;
+    padding: 0px 7px 0px 8px;
+}
+
+.red-hearts:hover{
+    color: red;
+}
+
+
+
+.relativer{
+    position: relative;
+}
+.img-hover{
+    opacity: 0.0;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 0;
+}
+
+.img-hover:hover{
+    opacity:1;
+}
